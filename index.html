@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="icon" href="assets/spotify.png" type="image/x-icon" />
+
+    <title>Spotify -Clone</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left bg-black">
+        <div class="home bg-gray rounded m-1 p-1">
+          <div class="logo1">
+          <div class="logo">
+            <img class="invert" src="assets/logo.svg" alt="logo" />
+          </div>
+          <div class="close">
+            <img class="invert" src="assets/close.svg" alt="">
+          </div>
+        </div>
+          <ul>
+            <li>
+              <img class="invert" src="assets/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="assets/search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-gray rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="assets/playlist.svg" alt="playlist" />
+            <h2>Your library</h2>
+          </div>
+          <div class="songlist">
+            <ul>
+              <!-- <li>
+                <img src="music.svg" alt="" />
+                <div class="info">
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="playnow">
+                    <span>Play Now</span>
+                    <img class="invert" src="play.svg" alt="" />
+                </div>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                ><span>Safety &amp; Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                ><span>Accessibility</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-gray rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="ham">
+              <img class="hamburger" width="30px"  src="assets/hamburger.svg" alt="">
+              <div class="arrow">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </div>
+          </div>
+          </div>
+          <div class="btn">
+            <button>Sign up</button>
+            <button>Log in</button>
+          </div>
+        </div>
+        <div class="Spotify-playlist">
+          <h2>Spotify Playlists</h2>
+          <div class="card-container">
+            <!-- <div  data-folder="cs"  class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="42"
+                  class="bi bi-play-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+             
+                  <circle cx="8" cy="8" r="8" fill="#1ed65f" />
+         
+                  <path
+                    d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <img
+                src="songs/cs/cover.jpeg"
+                alt=""
+              />
+              <h3>Happy Hits!</h3>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div data-folder="ncs" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="42"
+                  class="bi bi-play-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+       
+                  <circle cx="8" cy="8" r="8" fill="#1ed65f" />
+            
+                  <path
+                    d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f000000029527413150cbd6d9b2a3785a"
+                alt=""
+              />
+              <h3>Calming Acoustic</h3>
+              <p>Keep calm with instrumental acoustic!</p>
+            </div>
+            <div class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="42"
+                  class="bi bi-play-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+      
+                  <circle cx="8" cy="8" r="8" fill="#1ed65f" />
+
+                  <path
+                    d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f0000000277c91d9f09e4deb8a2ede4cb"
+                alt=""
+              />
+              <h3>Christmas classics</h3>
+              <p>Timeless heart warming classics!</p>
+            </div> -->
+            
+          </div>
+          <div class="play-bar">
+            <div class="seekbar">
+             
+              <div class="circle"></div>
+              <div class="progress"></div>
+            </div>
+            <div class="bar">
+            <div class="songinfo">
+              
+            </div>
+            
+            <div class="playbtn">
+              <div class="shuffle">
+                <img src="assets/shuffle.svg" alt="">
+              </div>
+              <div class="previous"><svg width="15" height="20" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.145 28.8432L11.145 47.4046C11.145 48.3233 10.4307 49.0697 9.44864 49.0697L2.48474 49.0697C1.59193 49.0697 0.877686 48.3233 0.877686 47.4046L0.87769 2.59642C0.87769 1.67772 1.59193 0.932262 2.48474 0.932262L9.44864 0.932263C10.4307 0.932263 11.145 1.67772 11.145 2.59642L11.145 21.1579L45.0717 1.56168C45.8752 1.10009 46.8573 1.10009 47.6608 1.56168C48.4643 2.02326 49 2.87585 49 3.79901C49 13.5199 49 36.4811 49 46.2029C49 47.1251 48.4643 47.9778 47.6608 48.4393C46.8573 48.9009 45.8752 48.901 45.0717 48.4403L11.145 28.8432Z" fill="#999"/>
+                </svg>
+                </div>
+              <img id="play" src="assets/play.svg" alt="" />
+              <div class="next"><svg width="15" height="20" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M37.855 21.1588V2.59737C37.855 1.67867 38.5693 0.932251 39.5514 0.932251H46.5153C47.4081 0.932251 48.1223 1.67867 48.1223 2.59737V47.4055C48.1223 48.3242 47.4081 49.0697 46.5153 49.0697H39.5514C38.5693 49.0697 37.855 48.3242 37.855 47.4055V28.844L3.92835 48.4403C3.12483 48.9019 2.14274 48.9019 1.33921 48.4403C0.535685 47.9787 0 47.1261 0 46.2029C0 36.4821 0 13.5209 0 3.79908C0 2.87681 0.535685 2.0242 1.33921 1.56262C2.14274 1.10104 3.12483 1.10097 3.92835 1.56166L37.855 21.1588Z" fill="#999"/>
+                </svg>
+                </div>
+              <div class="loop">
+                <img src="assets/loop1.svg" alt="">
+            </div>
+            
+            </div>
+            <div class="songtime"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!--  -->
