@@ -239,7 +239,7 @@ const getRandomSongIndex = (currentIndex, songs) => {
     let randomIndex;
     do {
         randomIndex = Math.floor(Math.random() * songs.length);
-    } while (randomIndex === currentIndex); // Ensure it's not the current song
+    } while (randomIndex === currentIndex); // Ensure it's not the current song from the songs folder
     return randomIndex;
 };
 
