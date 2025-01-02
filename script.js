@@ -247,7 +247,7 @@ const getRandomSongIndex = (currentIndex, songs) => {
 const playRandomSong = () => {
     let currentIndex = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
     let randomIndex = getRandomSongIndex(currentIndex, songs);
-    playMusic(songs[randomIndex]); // Play the random song
+    playMusic(songs[randomIndex]); // Play the random song from the songs folder
 };
 
 // Add event listener for shuffle functionality
